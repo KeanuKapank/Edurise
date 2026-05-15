@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Edurise.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d227373d237c9728e6c199b4d51eb26b59c39a99")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94868783a188fa22a69fb722a5dee1bf09ce3472")]
 [assembly: System.Reflection.AssemblyProductAttribute("Edurise.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Edurise.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
