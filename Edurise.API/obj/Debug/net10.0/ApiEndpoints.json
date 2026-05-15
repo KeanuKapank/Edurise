@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Edurise.API.Controllers.EventsController",
+    "Method": "BookConsultation",
+    "RelativePath": "api/Events",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "calendarEvent",
+        "Type": "Edurise.API.Models.Request.CalendarEvent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

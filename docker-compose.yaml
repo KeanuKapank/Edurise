@@ -1,0 +1,36 @@
+services:
+  app:
+    env_file:
+      - ./Edurise.App/.env
+    build:
+      context: ./Edurise.App
+      dockerfile: Dockerfile
+    environment:
+      VITE_EDURISE_API_URL: ${VITE_EDURISE_API_URL}
+    ports:
+      - 3000:80
+    restart: unless-stopped
+
+  api:
+    build:
+      context: ./Edurise.Api
+      dockerfile: Dockerfile
+      args:
+        BUILD_CONFIGURATION: Release
+    ports:
+      - "8080:8080"
+    env_file:
+      - ./Edurise.API/.env
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - GoogleAuth__PrivateKey=${GoogleAuth_PrivateKey}
+      - GoogleAuth__ClientEmail=${GoogleAuth_ClientEmail}
+      - GoogleAuth__EduriseEmail=${GoogleAuth_EduriseEmail}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s

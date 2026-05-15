@@ -1,0 +1,59 @@
+.modern-picker .react-datetime-picker {
+  width: 100%;
+}
+
+.modern-picker .react-datetime-picker__wrapper {
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  padding: 0.85rem 1rem;
+  background: rgb(255, 255, 255);
+  transition: all 0.3s ease;
+}
+
+.modern-picker .react-datetime-picker__wrapper:hover {
+  border-color: #94a3b8;
+}
+
+.modern-picker .react-datetime-picker__wrapper:focus-within {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 0.4px var(--color-primary);
+}
+
+.modern-picker input {
+  color: #1e293b;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.modern-picker .react-calendar {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+}
+
+.modern-picker .react-calendar__tile--active {
+  background: var(--color-primary) !important;
+  color: white !important;
+  border-radius: 0.75rem;
+}
+
+.modern-picker .react-clock {
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+
+.modern-picker .react-datetime-picker__calendar-button {
+  color: #008609 !important;
+  transition: all 0.2s ease;
+}
+
+.modern-picker .react-datetime-picker__calendar-button:hover {
+  color: #00881b !important;
+  transform: scale(1.05);
+}
+
+.modern-picker .react-datetime-picker__button {
+  padding: 4px;
+}

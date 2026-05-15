@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+/* Theme tokens */
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+
+  /* Colors */
+  --color-background: hsl(220 25% 98%);
+  --color-foreground: hsl(222 35% 14%);
+  --color-card: hsl(0 0% 100%);
+  --color-card-foreground: hsl(222 35% 14%);
+  --color-popover: hsl(0 0% 100%);
+  --color-popover-foreground: hsl(222 35% 14%);
+  --color-primary: hsl(220 55% 25%);
+  --color-primary-foreground: hsl(0 0% 100%);
+  --color-secondary: hsl(35 20% 92%);
+  --color-secondary-foreground: hsl(222 35% 14%);
+  --color-muted: hsl(220 15% 94%);
+  --color-muted-foreground: hsl(220 10% 48%);
+  --color-accent: hsl(38 45% 52%);
+  --color-accent-foreground: hsl(222 35% 14%);
+  --color-destructive: hsl(0 84.2% 60.2%);
+  --color-destructive-foreground: hsl(0 0% 98%);
+  --color-border: hsl(220 12% 88%);
+  --color-border-black: hsl(0, 0%, 0%);
+  --color-input: hsl(220 12% 88%);
+  --color-ring: hsl(220 55% 25%);
+
+  /* Charts */
+  --color-chart-1: hsl(220 55% 25%);
+  --color-chart-2: hsl(38 45% 52%);
+  --color-chart-3: hsl(175 40% 38%);
+  --color-chart-4: hsl(210 30% 55%);
+  --color-chart-5: hsl(222 35% 14%);
+
+  /* Radius */
+  --radius: 0.75rem;
+
+  /* Sidebar */
+  --color-sidebar-background: hsl(220 20% 97%);
+  --color-sidebar-foreground: hsl(222 25% 28%);
+  --color-sidebar-primary: hsl(220 55% 25%);
+  --color-sidebar-primary-foreground: hsl(0 0% 100%);
+  --color-sidebar-accent: hsl(220 15% 94%);
+  --color-sidebar-accent-foreground: hsl(222 35% 14%);
+  --color-sidebar-border: hsl(220 12% 88%);
+  --color-sidebar-ring: hsl(220 55% 25%);
+}
