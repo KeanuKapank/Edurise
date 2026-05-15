@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QEedi9xuJmk=",
+  "dgSpecHash": "4P2gQDKmeyY=",
   "success": true,
-  "projectFilePath": "C:\\Dev\\Edurise\\Edurise.API\\Edurise.API.csproj",
+  "projectFilePath": "c:\\Dev\\Edurise\\Edurise.API\\Edurise.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\keanu\\.nuget\\packages\\google.apis\\1.73.0\\google.apis.1.73.0.nupkg.sha512",
     "C:\\Users\\keanu\\.nuget\\packages\\google.apis.auth\\1.73.0\\google.apis.auth.1.73.0.nupkg.sha512",
