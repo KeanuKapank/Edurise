@@ -101,10 +101,10 @@ C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\staticwebassets.development.json
 C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\swae.build.ex.cache
-C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\Edurise..3A169E80.Up2Date
 C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\Edurise.API.dll
 C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\refint\Edurise.API.dll
 C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\Edurise.API.pdb
 C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\Edurise.API.genruntimeconfig.cache
 C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\ref\Edurise.API.dll
+C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\Edurise.API.sourcelink.json

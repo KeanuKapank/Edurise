@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Dev\\Edurise\\Edurise.API\\Edurise.API.csproj": {}
+    "C:\\Dev\\Edurise\\Edurise.API\\Edurise.API.csproj": {}
   },
   "projects": {
-    "c:\\Dev\\Edurise\\Edurise.API\\Edurise.API.csproj": {
+    "C:\\Dev\\Edurise\\Edurise.API\\Edurise.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Dev\\Edurise\\Edurise.API\\Edurise.API.csproj",
+        "projectUniqueName": "C:\\Dev\\Edurise\\Edurise.API\\Edurise.API.csproj",
         "projectName": "Edurise.API",
-        "projectPath": "c:\\Dev\\Edurise\\Edurise.API\\Edurise.API.csproj",
+        "projectPath": "C:\\Dev\\Edurise\\Edurise.API\\Edurise.API.csproj",
         "packagesPath": "C:\\Users\\keanu\\.nuget\\packages\\",
-        "outputPath": "c:\\Dev\\Edurise\\Edurise.API\\obj\\",
+        "outputPath": "C:\\Dev\\Edurise\\Edurise.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
