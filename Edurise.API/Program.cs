@@ -43,11 +43,15 @@ namespace Edurise.API
             builder.Services.AddSingleton<IGoogleCalendarService, GoogleCalendarService>();
 
             // Add CORS policy
+            var allowedOrigins = builder.Configuration
+                .GetSection("AllowedOrigins")
+                .Get<string[]>() ?? [];
+
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowAllOrigin", policy =>
                 {
-                    policy.AllowAnyOrigin()
+                    policy.WithOrigins(allowedOrigins)
                     .AllowAnyMethod()
                     .AllowAnyHeader();
                 });

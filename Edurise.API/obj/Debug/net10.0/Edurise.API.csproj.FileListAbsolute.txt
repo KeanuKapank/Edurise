@@ -108,3 +108,4 @@ C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\Edurise.API.pdb
 C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\Edurise.API.genruntimeconfig.cache
 C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\ref\Edurise.API.dll
 C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\Edurise.API.sourcelink.json
+C:\Dev\Edurise\Edurise.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
