@@ -12,6 +12,9 @@ namespace Edurise.API.Implementation
         private readonly GoogleCredential _googleCredential;
         public GoogleAuthService(AppConfig appConfig)
         {
+            var privateKey = appConfig.GoogleAuth.PrivateKey
+                                .Replace("\\n", "\n");
+
             var credential = new ServiceAccountCredential(
                 new ServiceAccountCredential.Initializer(
                     appConfig.GoogleAuth.ClientEmail)
@@ -22,7 +25,7 @@ namespace Edurise.API.Implementation
                         CalendarService.Scope.CalendarEvents
                     ]
                 }.FromPrivateKey(
-                    appConfig.GoogleAuth.PrivateKey)
+                    privateKey)
             );
 
             _googleCredential = GoogleCredential.FromServiceAccountCredential(credential);
