@@ -10,10 +10,16 @@ namespace Edurise.API.Implementation
     public class GoogleAuthService : IGoogleAuthService
     {
         private readonly GoogleCredential _googleCredential;
-        public GoogleAuthService(AppConfig appConfig)
+        private readonly ILogger<GoogleAuthService> _logger;    
+
+        public GoogleAuthService(AppConfig appConfig, ILogger<GoogleAuthService> logger)
         {
+            _logger = logger;
+
             var privateKey = appConfig.GoogleAuth.PrivateKey
                                 .Replace("\\n", "\n");
+
+            _logger.LogInformation("Initializing GoogleAuthService with ClientEmail: {ClientEmail}", appConfig.GoogleAuth.ClientEmail);
 
             var credential = new ServiceAccountCredential(
                 new ServiceAccountCredential.Initializer(
