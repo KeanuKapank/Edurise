@@ -47,6 +47,8 @@ namespace Edurise.API
                 .GetSection("AllowedOrigins")
                 .Get<string[]>() ?? [];
 
+            log.Information("Configuring CORS with allowed origins: {AllowedOrigins}", string.Join(", ", allowedOrigins));
+
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowAllOrigin", policy =>
