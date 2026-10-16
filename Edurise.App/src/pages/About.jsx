@@ -33,7 +33,7 @@ const team = [
     name: 'Mr. Lyle Jonas', 
     role: 'Founder & Lead Consultant', 
     bio: '8+ years overall education experience', 
-    image: '/images/IMG_6880.jpg'
+    image: '/images/IMG_6880.png'
   }
 ];
 
@@ -120,7 +120,7 @@ export default function About() {
                 name={member.name} 
                 role={member.role} 
                 bio={member.bio} 
-                image={member.image}
+                imageUrl={member.image}
                  />
             ))}
           </div>
