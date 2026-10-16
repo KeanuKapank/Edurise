@@ -6,7 +6,7 @@ const testimonials = [
   {
     name: 'Ms. Wendell',
     role: 'MBA Graduate',
-    text: 'EduRise transformed my career trajectory. Their guidance helped me secure admission to my dream business school and navigate the cultural transition seamlessly.',
+    text: "Edurise transformed my career trajectory. Their guidance helped me secure admission to my dream business school and navigate the cultural transition seamlessly",
     rating: 5,
   },
   {

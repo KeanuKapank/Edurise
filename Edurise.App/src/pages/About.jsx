@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import { motion } from 'framer-motion';
 import { ArrowRight, Heart, Target, Users, Award } from 'lucide-react';
+import EmployeeCard from '../components/services/EmployeeCard';
 
 const values = [
   {
@@ -28,7 +29,12 @@ const values = [
 ];
 
 const team = [
-  { name: 'Mr. Lyle Jonas', role: 'Founder & Lead Consultant', bio: '2+ years in international education', image: '/images/meet1.jpeg' }
+  { 
+    name: 'Mr. Lyle Jonas', 
+    role: 'Founder & Lead Consultant', 
+    bio: '8+ years overall education experience', 
+    image: '/images/IMG_6880.jpg'
+  }
 ];
 
 export default function About() {
@@ -109,21 +115,13 @@ export default function About() {
 
           <div className="flex flex-wrap justify-center gap-8">
             {team.map((member, i) => (
-              <motion.div
-                key={member.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.1 }}
-                className="text-center"
-              >
-                <div className="w-30 h-24 mx-auto mb-10 flex items-center justify-center rounded-full">
-                  <img src={member.image} alt={member.name} className="object-cover rounded-full" />
-                </div>
-                <h4 className="font-semibold text-foreground">{member.name}</h4>
-                <p className="text-sm text-primary font-medium mt-1">{member.role}</p>
-                <p className="text-xs text-muted-foreground mt-2">{member.bio}</p>
-              </motion.div>
+              <EmployeeCard
+                key={i} 
+                name={member.name} 
+                role={member.role} 
+                bio={member.bio} 
+                image={member.image}
+                 />
             ))}
           </div>
         </div>
