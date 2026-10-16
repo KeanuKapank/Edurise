@@ -32,7 +32,7 @@ const team = [
   { 
     name: 'Mr. Lyle Jonas', 
     role: 'Founder & Lead Consultant', 
-    bio: '2+ years in international education', 
+    bio: '8+ years overall education experience', 
     image: '/images/IMG_6880.jpg'
   }
 ];
