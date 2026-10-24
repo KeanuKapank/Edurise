@@ -18,7 +18,7 @@ const testimonials = [
   {
     name: 'Ms. Roelfse',
     role: 'English Teacher',
-    text: 'Moving abroad was daunting, but EduRise culture shock support made it so much easier. They truly understand the international student experience.',
+    text: 'Moving abroad was daunting, but EduRise culture shock support made it so much easier. They truly understand the international professionals experiences.',
     rating: 5,
   },
 ];

@@ -11,7 +11,7 @@ export default function HeroSection({ heroImage }) {
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="Students at a modern campus"
+          alt="Lyle Teaching Students"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-linear-to-r from-foreground/90 via-foreground/70 to-foreground/30" />

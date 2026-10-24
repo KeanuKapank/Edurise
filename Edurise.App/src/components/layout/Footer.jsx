@@ -15,7 +15,7 @@ export default function Footer() {
               <span className="text-xl font-semibold tracking-tight">EduRise</span>
             </Link>
             <p className="text-sm text-background/60 leading-relaxed max-w-xs">
-              Empowering students and professionals to navigate their educational journey with confidence and clarity.
+              Empowering professionals to navigate their educational journey with confidence and clarity.
             </p>
           </div>
 

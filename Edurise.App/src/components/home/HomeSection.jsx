@@ -30,7 +30,7 @@ export default function HeroSection({ heroImage }) {
                   <Star key={i} className="w-4 h-4 fill-accent text-accent" />
                 ))}
               </div>
-              <span className="text-sm text-background/70 font-medium">Trusted by 2,000+ students worldwide</span>
+              <span className="text-sm text-background/70 font-medium">Trusted by professionals worldwide</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-serif font-bold text-background leading-tight">

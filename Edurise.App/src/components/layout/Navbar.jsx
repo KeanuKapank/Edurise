@@ -23,9 +23,12 @@ export default function Navbar() {
   }, []);
 
   useEffect(() => setIsOpen(false), [location]);
+  
+  console.log(location.pathname + scrolled)
+  // console.log(location.label.includes"/")
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? 'bg-background/90 backdrop-blur-xl shadow-sm border-b border-border/50' : 'bg-transparent'}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled && location.label === '/' ? 'bg-background/90 backdrop-blur-xl shadow-sm border-b border-border/50' : location.pathname == '/' ? scrolled ? 'bg-primary' : 'bg-transparent' : 'bg-primary'}`}>
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-3 group">
@@ -42,10 +45,11 @@ export default function Navbar() {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 
+                  ${
                   location.pathname === link.path
-                    ? 'text-primary bg-primary/5'
-                    : 'text-muted-foreground hover:text-foreground hover:bg-muted/50'
+                    ? 'text-accent'
+                    : 'text-primary-foreground hover:text-primary hover:bg-background'
                 }`}
               >
                 {link.label}
@@ -55,7 +59,7 @@ export default function Navbar() {
 
           <div className="hidden md:flex items-center gap-3">
             <Link to="/contact">
-              <Button className="rounded-full px-6 font-medium">
+              <Button className="rounded-full px-6 font-medium cursor-pointer">
                 Book a Consultation
               </Button>
             </Link>
@@ -76,7 +80,7 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-background/95 backdrop-blur-xl border-b border-border"
+            className="md:hidden bg-primary backdrop-blur-xl "
           >
             <div className="px-6 py-4 space-y-1">
               {navLinks.map(link => (
@@ -85,15 +89,15 @@ export default function Navbar() {
                   to={link.path}
                   className={`block px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
                     location.pathname === link.path
-                      ? 'text-primary bg-primary/5'
-                      : 'text-muted-foreground hover:text-foreground hover:bg-muted/50'
+                    ? 'text-accent bg-primary/5'
+                    : 'text-primary-foreground hover:text-primary hover:bg-background'
                   }`}
                 >
                   {link.label}
                 </Link>
               ))}
               <Link to="/contact" className="block pt-2">
-                <Button className="w-full rounded-full font-medium">Book a Consultation</Button>
+                <Button className="w-full rounded-full font-medium border border-border cursor-pointer">Book a Consultation</Button>
               </Link>
             </div>
           </motion.div>

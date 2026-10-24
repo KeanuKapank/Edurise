@@ -1,27 +1,5 @@
-import React from 'react'
-
-type EmployeeCardProps = {
-  name: string;
-  role: string;
-  bio: string;
-  imageUrl: string;
-}
-
 import { useId } from "react";
 
-/**
- * EmployeeCard
- *
- * A polaroid-style profile card where the subject "steps out" of the frame.
- * Works best with a transparent-background (cut-out) PNG/WebP, so the arms
- * and shoulders can overlap the white frame.
- *
- * Props
- * - imageUrl {string}  Cut-out photo (transparent background)
- * - name     {string}  Full name
- * - role     {string}  Job title
- * - bio      {string}  Short bio, revealed on hover / keyboard focus / tap
- */
 export default function EmployeeCard({
   imageUrl = "https://placehold.co/600x800/png",
   name = "Sarah Aileah",
@@ -38,11 +16,11 @@ export default function EmployeeCard({
     >
       <span
         aria-hidden="true"
-        className="pointer-events-none absolute -bottom-10 -left-10 h-40 w-40 rounded-full border-[28px] border-white/5"
+        className="pointer-events-none absolute -bottom-10 -left-10 h-40 w-40 rounded-full border-28 border-white/5"
       />
       <span
         aria-hidden="true"
-        className="pointer-events-none absolute -bottom-6 left-16 h-24 w-24 rounded-full border-[20px] border-white/5"
+        className="pointer-events-none absolute -bottom-6 left-16 h-24 w-24 rounded-full border-20 border-white/5"
       />
 
       {/* Polaroid frame */}
