@@ -15,7 +15,7 @@ export default function Footer() {
               <span className="text-xl font-semibold tracking-tight">EduRise</span>
             </Link>
             <p className="text-sm text-background/60 leading-relaxed max-w-xs">
-              Empowering students and professionals to navigate their educational journey with confidence and clarity.
+              Empowering professionals to navigate their educational journey with confidence and clarity.
             </p>
           </div>
 
@@ -48,6 +48,10 @@ export default function Footer() {
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-primary" />
                 South Africa, ZA
+              </li>
+              <li className="flex items-center gap-2">
+                <Phone className="w-4 h-4 text-primary" />
+                +965 9490 6272
               </li>
             </ul>
           </div>

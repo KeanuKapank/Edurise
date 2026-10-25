@@ -10,7 +10,7 @@ const services = [
     icon: Compass,
     tag: 'Career Development',
     title: 'Career Guidance',
-    image: '/images/CareerGuidance.png',
+    image: '/images/step_in.png',
     description: 'Our career guidance program is designed to help you discover your strengths, explore career paths, and create a strategic roadmap for professional success. We combine personality assessments, industry insights, and one-on-one mentoring.',
     features: [
       'Personalized career assessment and profiling',
@@ -23,7 +23,7 @@ const services = [
     icon: Mic,
     tag: 'Professional Skills',
     title: 'Interview Coaching',
-    image: '/images/InterviewCoaching.png',
+    image: '/images/teaching_1.jpeg',
     description: 'Master every interview format — from behavioral to technical, through structured mock sessions and real-time feedback.',
     features: [
       'Mock interviews with detailed video feedback',
@@ -36,7 +36,7 @@ const services = [
     icon: Globe,
     tag: 'Cultural Transition',
     title: 'Culture Shock Support',
-    image: '/images/CultureShock.png',
+    image: '/images/culture_1.jpeg',
     description: 'Moving to a new country can be overwhelming. Our cultural adaptation program provides the tools, knowledge, and emotional support you need to thrive in unfamiliar environments and turn challenges into growth opportunities.',
     features: [
       'Pre-departure orientation and preparation',
@@ -49,7 +49,7 @@ const services = [
     icon: PiggyBank,
     tag: 'Financial Wellness',
     title: 'Financial Planning',
-    image: '/images/FinancialPlanning.png',
+    image: '/images/finace.jpeg',
     description: 'Education is an investment, and we help you make the most of it. From scholarship applications to budgeting strategies, we ensure financial concerns never stand between you and your educational goals.',
     features: [
       'Budget planning and expense management',
@@ -61,7 +61,7 @@ const services = [
     icon: BookOpen,
     tag: 'Academic Environment',
     title: 'School Culture',
-    image: '/images/SchoolCulture.png',
+    image: '/images/culture.png',
     description: 'Every institution has its own unique culture and expectations. We help you understand academic norms, build meaningful relationships with faculty, and develop the soft skills needed to excel in any educational setting.',
     features: [
       'Academic etiquette and classroom dynamics',

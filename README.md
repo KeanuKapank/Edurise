@@ -11,7 +11,7 @@
 
 ## 📝 Description
 
-Edurise is a professional web-based platform designed to serve as the digital foundation for a modern education consultancy business. Built with React for a high-performance and interactive user experience, this project functions as a comprehensive digital blueprint to connect students with academic opportunities. It provides a sleek, responsive interface that streamlines the consultancy process, helping educational advisors effectively manage their online presence and engage with students globally.
+Edurise is a professional web-based platform designed to serve as the digital foundation for a modern education consultancy business. Built with React for a high-performance and interactive user experience, this project functions as a comprehensive digital blueprint to connect professionals with academic opportunities. It provides a sleek, responsive interface that streamlines the consultancy process, helping educational advisors effectively manage their online presence and engage with students globally.
 
 ## 🛠️ Development Setup (Prerequisites)
 - Google Service Account with access to Google Calendar API

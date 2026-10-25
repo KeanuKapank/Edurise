@@ -3,13 +3,12 @@ import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import { motion } from 'framer-motion';
 import { ArrowRight, Heart, Target, Users, Award } from 'lucide-react';
-import EmployeeCard from '../components/services/EmployeeCard';
 
 const values = [
   {
     icon: Heart,
-    title: 'Student-First Approach',
-    description: 'Every decision we make is guided by what\'s best for our students. Your success is our success.',
+    title: 'You-First Approach',
+    description: 'Every decision we make is guided by what\'s best for our professionals. Your success is our success.',
   },
   {
     icon: Target,
@@ -19,7 +18,7 @@ const values = [
   {
     icon: Users,
     title: 'Inclusive Community',
-    description: 'We celebrate diversity and create a welcoming environment for students from every background and walk of life.',
+    description: 'We celebrate diversity and create a welcoming environment for professionals from every background and walk of life.',
   },
   {
     icon: Award,
@@ -28,14 +27,7 @@ const values = [
   },
 ];
 
-const team = [
-  { 
-    name: 'Mr. Lyle Jonas', 
-    role: 'Founder & Lead Consultant', 
-    bio: '8+ years overall education experience', 
-    image: '/images/IMG_6880.png'
-  }
-];
+
 
 export default function About() {
   return (
@@ -50,7 +42,7 @@ export default function About() {
               <span className="text-primary">Guided Education</span>
             </h1>
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-              Founded in 2026, EduRise has helped students and professionals navigate their educational journeys, We combine industry expertise with genuine care for every individual we work with.
+              Founded in 2026, EduRise has helped professionals navigate their educational journeys, We combine industry expertise with genuine care for every individual we work with.
             </p>
           </motion.div>
         </div>
@@ -70,7 +62,7 @@ export default function About() {
                 Making World-Class Education Accessible to Everyone
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                We envision a world where every student, regardless of background or geography, has access to expert guidance that empowers them to make confident decisions about their education and career.
+                We envision a world where every professional, regardless of background or geography, has access to expert guidance that empowers them to make confident decisions about their education and career.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Our holistic approach addresses not just academic planning, but the emotional, cultural, and financial dimensions that shape the educational experience. We don't just open doors — we help you walk through them with confidence.
@@ -94,35 +86,6 @@ export default function About() {
                 </div>
               ))}
             </motion.div>
-          </div>
-        </div>
-      </section>
-
-      {/* Team */}
-      <section className="py-20 lg:py-28 bg-secondary/30">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center max-w-2xl mx-auto mb-16"
-          >
-            <p className="text-sm font-semibold text-primary uppercase tracking-widest mb-3">Our Team</p>
-            <h2 className="text-3xl lg:text-4xl font-serif font-bold text-foreground">
-              Meet the Expert Behind Your Success
-            </h2>
-          </motion.div>
-
-          <div className="flex flex-wrap justify-center gap-8">
-            {team.map((member, i) => (
-              <EmployeeCard
-                key={i} 
-                name={member.name} 
-                role={member.role} 
-                bio={member.bio} 
-                imageUrl={member.image}
-                 />
-            ))}
           </div>
         </div>
       </section>
