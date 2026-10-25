@@ -7,7 +7,7 @@ import { ArrowRight, Heart, Target, Users, Award } from 'lucide-react';
 const values = [
   {
     icon: Heart,
-    title: 'Student-First Approach',
+    title: 'You-First Approach',
     description: 'Every decision we make is guided by what\'s best for our professionals. Your success is our success.',
   },
   {

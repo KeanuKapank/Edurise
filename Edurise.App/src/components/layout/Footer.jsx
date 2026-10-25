@@ -49,6 +49,10 @@ export default function Footer() {
                 <MapPin className="w-4 h-4 text-primary" />
                 South Africa, ZA
               </li>
+              <li className="flex items-center gap-2">
+                <Phone className="w-4 h-4 text-primary" />
+                +965 9490 6272
+              </li>
             </ul>
           </div>
         </div>
