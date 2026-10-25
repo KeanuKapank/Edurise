@@ -61,7 +61,7 @@ const services = [
     icon: BookOpen,
     tag: 'Academic Environment',
     title: 'School Culture',
-    image: '/images/SchoolCulture.png',
+    image: '/images/culture.png',
     description: 'Every institution has its own unique culture and expectations. We help you understand academic norms, build meaningful relationships with faculty, and develop the soft skills needed to excel in any educational setting.',
     features: [
       'Academic etiquette and classroom dynamics',

@@ -62,7 +62,7 @@ export default function About() {
                 Making World-Class Education Accessible to Everyone
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                We envision a world where every student, regardless of background or geography, has access to expert guidance that empowers them to make confident decisions about their education and career.
+                We envision a world where every professional, regardless of background or geography, has access to expert guidance that empowers them to make confident decisions about their education and career.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Our holistic approach addresses not just academic planning, but the emotional, cultural, and financial dimensions that shape the educational experience. We don't just open doors — we help you walk through them with confidence.

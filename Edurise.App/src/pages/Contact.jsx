@@ -21,6 +21,7 @@ const contactInfo = [
     value: "South Africa, ZA",
   },
   { icon: Clock, label: "Hours", value: "Mon – Fri, 9:00 AM – 6:00 PM SAST" },
+  { icon: Phone, label: "Phone", value: "+965 9490 6272" }
 ];
 
 const eduriseApiBaseUrl =  import.meta.env.VITE_EDURISE_API_URL || "http://localhost:7257/api";

@@ -12,7 +12,7 @@ const testimonials = [
   {
     name: 'Mr. Van Wyk',
     role: 'Departmental Head',
-    text: 'The interview coaching was incredible. I went from being nervous to confident, and landed offers from three top tech companies. Worth every penny.',
+    text: 'The interview coaching was incredible. I went from being nervous to confident. Worth every penny.',
     rating: 5,
   },
   {
@@ -56,7 +56,7 @@ export default function TestimonialsSection() {
                 ))}
               </div>
               <p className="text-medium text-muted-foreground leading-relaxed mb-6">"{t.text}"</p>
-              <div>
+              <div className="inline-block align-text-bottom">
                 <p className="font-semibold text-foreground text-sm">{t.name}</p>
                 <p className="text-xs text-muted-foreground mt-0.5">{t.role}</p>
               </div>
