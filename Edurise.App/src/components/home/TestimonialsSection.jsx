@@ -4,21 +4,21 @@ import { Star, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Ms. Wendell',
-    role: 'MBA Graduate',
+    name: 'Mr. Bujela',
+    role: 'Current Teacher',
     text: "Edurise transformed my career trajectory. Their guidance helped me secure admission to my dream business school and navigate the cultural transition seamlessly",
     rating: 5,
   },
   {
     name: 'Mr. Van Wyk',
     role: 'Departmental Head',
-    text: 'The interview coaching was incredible. I went from being nervous to confident. Worth every penny.',
+    text: 'The interview coaching was incredible. I went from being nervous to confident, and landed offers from international schools. Worth every penny',
     rating: 5,
   },
   {
     name: 'Ms. Roelfse',
     role: 'English Teacher',
-    text: 'Moving abroad was daunting, but EduRise culture shock support made it so much easier. They truly understand the international professionals experiences.',
+    text: 'Moving abroad was daunting, but EduRise culture shock support made it so much easier. They truly understand the international professionals experiences and school culture.',
     rating: 5,
   },
 ];
